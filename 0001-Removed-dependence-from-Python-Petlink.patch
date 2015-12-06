@@ -1,0 +1,24 @@
+From 098b985f04032b65a7c361bc2f943ce237d453ee Mon Sep 17 00:00:00 2001
+From: Stefano Pedemonte <stefano.pedemonte@gmail.com>
+Date: Tue, 24 Nov 2015 10:19:47 -0600
+Subject: [PATCH] Removed dependence from Python Petlink
+
+---
+ interfile/listmode.py | 1 -
+ 1 files changed, 1 deletion(-)
+
+diff --git a/interfile/listmode.py b/interfile/listmode.py
+index 7c82238..e69e100 100755
+--- a/interfile/listmode.py
++++ b/interfile/listmode.py
+@@ -4,7 +4,6 @@
+ # Aalto University, School of Science, Helsinki
+ # Oct 2013, Helsinki 
+ 
+-from petlink import *
+ from simplewrap import *
+ 
+
+-- 
+2.6.3
+
