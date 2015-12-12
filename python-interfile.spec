@@ -3,7 +3,7 @@
 Name:           python-%{modname}
 Version:        0.3.1
 Release:        1%{?dist}
-Summary:        Interfile read, write and convert
+Summary:        Pyhon module for read/write/parse interfile
 
 # https://github.com/spedemon/interfile/pull/3
 # not license text in PyPi archive
@@ -16,7 +16,11 @@ Patch0:         0001-Removed-dependence-from-Python-Petlink.patch
 BuildArch:      noarch
 
 %description
-%{summary}.
+Interfile is a Python module module that reads, writes and parses files in the
+interfile data format. The interfile file format is a format utilized for the
+storage of data related to Positron Emission Tomography (PET) and to
+Single Photon Emission Computed Tomography (SPECT), such as sinograms and
+volumetric imaging data.
 
 %package -n python2-%{modname}
 Summary:        %{summary}
@@ -26,7 +30,11 @@ BuildRequires:  python2-simplewrap
 Requires:       python2-simplewrap
 
 %description -n python2-%{modname}
-%{summary}.
+Interfile is a Python module module that reads, writes and parses files in the
+interfile data format. The interfile file format is a format utilized for the
+storage of data related to Positron Emission Tomography (PET) and to
+Single Photon Emission Computed Tomography (SPECT), such as sinograms and
+volumetric imaging data.
 
 Python 2 version.
 
@@ -39,7 +47,11 @@ BuildRequires:  python3-simplewrap
 Requires:       python3-simplewrap
 
 %description -n python3-%{modname}
-%{summary}.
+Interfile is a Python module module that reads, writes and parses files in the
+interfile data format. The interfile file format is a format utilized for the
+storage of data related to Positron Emission Tomography (PET) and to
+Single Photon Emission Computed Tomography (SPECT), such as sinograms and
+volumetric imaging data.
 
 Python 3 version.
 
